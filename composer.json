@@ -1,9 +1,10 @@
 {
   "name": "kachit/silex-skeleton",
   "description": "Silex skeleton web app",
-  "license": "public",
+  "type": "project",
+  "license": "MIT",
   "require": {
-    "php": ">=5.5",
+    "php": "~5.6|~7.0",
     "silex/silex": "2.0.*",
     "frostiede/silex-environment-serviceprovider": "1.*",
     "vlucas/phpdotenv": "2.4.*",
@@ -14,7 +15,8 @@
     "saxulum/config-service-provider": "2.0.*"
   },
   "require-dev": {
-    "codeception/codeception": "2.2.*"
+    "codeception/codeception": "2.2.*",
+    "squizlabs/php_codesniffer": "^2.3"
   },
   "autoload": {
     "psr-4": {
