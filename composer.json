@@ -1,0 +1,24 @@
+{
+  "name": "kachit/silex-skeleton",
+  "description": "Silex skeleton web app",
+  "license": "public",
+  "require": {
+    "php": ">=5.5",
+    "silex/silex": "2.0.*",
+    "frostiede/silex-environment-serviceprovider": "1.*",
+    "vlucas/phpdotenv": "2.4.*",
+    "doctrine/dbal": "2.5.*",
+    "monolog/monolog": "1.*",
+    "kachit/doctrine-dao-wrapper": "dev-master",
+    "sorien/silex-pimple-dumper": "2.0.*",
+    "saxulum/config-service-provider": "2.0.*"
+  },
+  "require-dev": {
+    "codeception/codeception": "2.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "app"
+    }
+  }
+}
